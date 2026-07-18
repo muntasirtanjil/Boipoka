@@ -100,7 +100,9 @@ const BookDetails = () => {
 
                 {/* Buttons */}
                 <div className="mt-10 flex gap-4">
-                    <button onClick={() => handleMarkAsRead(id)} className="btn btn-outline">Read</button>
+                    <button onClick={() => handleMarkAsRead(id)} className="btn btn-outline">Read
+                        
+                    </button>
 
                     <button className="btn bg-cyan-500 hover:bg-cyan-600 text-white border-none">
                         Wishlist

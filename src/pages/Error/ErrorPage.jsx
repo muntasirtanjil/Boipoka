@@ -35,12 +35,12 @@ const ErrorPage = () => {
                         🏠 Back to Home
                     </Link>
 
-                    <button
+                    {/* <button
                         onClick={() => window.history.back()}
                         className="border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-6 py-3 rounded-xl font-semibold transition duration-300"
                     >
                         ← Go Back
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* Footer Text */}
