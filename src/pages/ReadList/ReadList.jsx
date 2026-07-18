@@ -8,7 +8,7 @@ import ReadListCard from './ReadListCard';
 const ReadList = () => {
 
     const data = useLoaderData()
-    // console.log(data)
+    console.log(data)
     const [readList, setReadList] = useState([]);
 
     useEffect(() => {
@@ -16,6 +16,7 @@ const ReadList = () => {
         const convertedStoredBook = storeBookData.map(id => parseInt(id));
         // console.log(convertedStoredBook)
         const myReadList = data.filter(book => convertedStoredBook.includes(book.bookId));
+
         setReadList(myReadList)
 
     }, [])
